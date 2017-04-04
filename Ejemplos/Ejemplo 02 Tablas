@@ -1,0 +1,11 @@
+SHOW DATABASES;
+CREATE DATABASE ejemplo02_tablas;
+USE ejemplo02_tablas;
+SHOW TABLES;
+CREATE TABLE equipo (nombre varchar(30));
+SHOW TABLES;
+DESCRIBE equipo;
+DESC equipo;
+SHOW CREATE TABLE equipo; 
+DROP TABLE equipo;
+SHOW TABLES;
