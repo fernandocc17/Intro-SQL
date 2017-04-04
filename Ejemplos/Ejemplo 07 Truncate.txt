@@ -1,0 +1,3 @@
+SELECT * FROM equipo;
+TRUNCATE TABLE equipo;
+SELECT * FROM equipo;
