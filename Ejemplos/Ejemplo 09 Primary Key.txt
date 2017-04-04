@@ -1,0 +1,10 @@
+CREATE DATABASE ejemplo05_pk;
+USE ejemplo05_pk
+CREATE TABLE equipo(equipo_id INT PRIMARY KEY, nombre varchar(30), ciudad varchar(30));
+DESC equipo;
+INSERT INTO equipo(nombre,ciudad) VALUES ('','');
+SELECT * FROM equipo;
+INSERT INTO equipo VALUES (1,'','');
+SELECT * FROM equipo;
+INSERT INTO equipo VALUES (1,'','');
+INSERT INTO equipo VALUES (2,'','');
