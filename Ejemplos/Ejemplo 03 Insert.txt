@@ -1,0 +1,13 @@
+SHOW DATABASES;
+CREATE DATABASE ejemplo03_equipos;
+CREATE TABLE equipos(nombre varchar(30), ciudad varchar(30));
+INSERT INTO equipo VALUES('Leones Negros','Guadalajara');
+SELECT * FROM equipo;
+INSERT INTO equipo VALUES('Chivas','Guadalajara');
+SELECT * FROM equipo;
+INSERT INTO equipo(nombre) VALUES('Tecos');
+SELECT * FROM equipo;
+INSERT INTO equipo VALUES();
+SELECT * FROM equipo;
+INSERT INTO equipo VALUES('Dorados','Guadalajara'),('Atlas','Guadalajara');
+SELECT * FROM equipo;
