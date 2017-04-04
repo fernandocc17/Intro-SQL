@@ -1,0 +1,3 @@
+SELECT * FROM equipo;
+DELETE FROM equipo WHERE nombre='Atlas';
+SELECT * FROM equipo;
