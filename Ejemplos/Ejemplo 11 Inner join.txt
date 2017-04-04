@@ -1,0 +1,4 @@
+SELECT * FROM equipo INNER JOIN jugador ON equipo.equipo_id=jugador.equipo_id;
+SELECT equipo.nombre,jugador.nombre FROM equipo INNER JOIN jugador ON equipo.equipo_id=jugador.equipo_id;
+SELECT e.nombre,j.nombre FROM equipo e INNER JOIN jugador j ON equipo.equipo_id=jugador.equipo_id;
+SELECT e.nombre Equipo,j.nombre Jugador FROM equipo e INNER JOIN jugador j ON equipo.equipo_id=jugador.equipo_id;
