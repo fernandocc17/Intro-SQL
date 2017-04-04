@@ -1,0 +1,7 @@
+SELECT COUNT(*) FROM jugador;
+SELECT COUNT(*) FROM equipo;
+SELECT SUM(sueldo) FROM jugador;
+SELECT AVG(sueldo) FROM jugador;
+SELECT MAX(sueldo) FROM jugador;
+SELECT MIN(sueldo) FROM jugador;
+SELECT AVG(sueldo) FROM jugador GROUP BY equipo_id;
