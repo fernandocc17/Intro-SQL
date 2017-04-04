@@ -1,0 +1,17 @@
+CREATE DATABASE ejemplo06_fk;
+USE ejemplo06_fk_pk
+CREATE TABLE equipo(equipo_id INT PRIMARY KEY AUTO_INCREMENT, nombre varchar(30), ciudad varchar(30));
+CREATE TABLE jugador(jugador_id INT PRIMARY KEY AUTO_INCREMENT, nombre varchar(30), sueldo INT, equipo_id INT, CONSTRAINT FOREIGN KEY (equipo_id) REFERENCES equipo(equipo_id);
+DESC jugador;
+INSERT INTO equipo(nombre) VALUES ('Leones Negros'),('Real Madrid'),('Juventus');
+SELECT * FROM equipo;
+INSERT INTO jugador(nombre,sueldo,equipo_id) VALUES('Zidane',500000,2);
+SELECT * FROM jugador;
+INSERT INTO jugador(nombre,sueldo,equipo_id) VALUES('Anangono',10000,1);
+SELECT * FROM jugador;
+INSERT INTO jugador(nombre,sueldo,equipo_id) VALUES('Nedved',100000,3);
+SELECT * FROM jugador;
+INSERT INTO jugador(nombre,sueldo,equipo_id) VALUES',500000,4);
+SELECT * FROM jugador;
+INSERT INTO jugador(nombre,sueldo,equipo_id) VALUES('Hugo Sanchez',500000,null);
+SELECT * FROM jugador;
