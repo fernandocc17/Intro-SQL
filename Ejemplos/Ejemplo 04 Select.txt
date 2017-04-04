@@ -1,0 +1,4 @@
+SELECT ciudad FROM equipo;
+SELECT ciudad, nombre FROM equipo;
+SELECT *FROM equipo WHERE ciudad='Guadalajara';
+Select DISTINCT ciudad FROM equipo;
