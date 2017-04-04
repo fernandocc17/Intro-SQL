@@ -1,0 +1,5 @@
+SELECT * FROM equipo LEFT JOIN jugador ON equipo.equipo_id=jugador.equipo_id;
+SELECT * FROM jugador RIGHT JOIN equipo ON equipo.equipo_id=jugador.equipo_id;
+
+SELECT * FROM equipo RIGHT JOIN jugador ON equipo.equipo_id=jugador.equipo_id;
+SELECT * FROM jugador LEFT JOIN equipo ON equipo.equipo_id=jugador.equipo_id;
