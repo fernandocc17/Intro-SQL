@@ -1,0 +1,8 @@
+CREATE DATABASE ejemplo04_constraints;
+USE ejemplo04_constraints
+CREATE TABLE equipos(nombre varchar(30) NOT NULL UNIQUE, ciudad varchar(30) default 'Guadalajara');
+SELECT * FROM equipo;
+INSERT INTO equipo(nombre) VALUES('Tecos');
+SELECT * FROM equipo;
+INSERT INTO equipo(ciudad) VALUES('GDL');
+SELECT * FROM equipo;
